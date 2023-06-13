@@ -73,5 +73,5 @@ if run.get_status() == "Failed":
 run_id = {}
 run_id["run_id"] = run.id
 run_id["experiment_name"] = run.experiment.name
-with open("Random/run_id.json", "w") as outfile:
+with open("run_id.json", "w") as outfile:
     json.dump(run_id, outfile)
